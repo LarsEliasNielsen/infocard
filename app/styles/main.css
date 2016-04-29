@@ -71,6 +71,10 @@ paper-material#links {
   bottom: 25%;
 }
 
+p.mail-phone {
+  font-size: 3vmin;
+}
+
 .paper-material-0 {
   position: absolute;
   left: 0;
@@ -153,6 +157,8 @@ a:hover .icons.icons__twitter path {
 #sizedImgDiv.iron-image {
   -webkit-filter: blur(3px);
   filter: blur(3px);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 @media all and (max-width: 800px) and (orientation: landscape) {
@@ -180,6 +186,14 @@ a:hover .icons.icons__twitter path {
 
   p.location {
     font-size: 15px;
+  }
+
+  p.links-header {
+    font-size: 26px;
+  }
+
+  p.mail-phone {
+    font-size: 19px;
   }
 
   #footer span {
